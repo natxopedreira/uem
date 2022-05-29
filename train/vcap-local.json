@@ -1,0 +1,32 @@
+{
+  "services": {
+    "cloudantNoSQLDB": [
+      {
+        "name": "titanic-ai-db",
+        "label": "cloudantNoSQLDB",
+        "plan": "Shared",
+        "credentials": {
+        }
+      }
+    ],
+    "cloud-object-storage": [
+        {
+            "credentials": {},
+            "syslog_drain_url": null,
+            "volume_mounts": [],
+            "label": "cloud-object-storage",
+            "provider": null,
+            "plan": "Lite",
+            "name": "Cloud Object Storage-fx",
+            "tags": [
+                "Lite",
+                "storage",
+                "ibm_release",
+                "ibm_created",
+                "rc_compatible",
+                "ibmcloud-alias"
+            ]
+        }
+    ]
+  }
+}

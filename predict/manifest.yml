@@ -1,0 +1,5 @@
+---
+applications:
+- name: proyecto-uem-modulo4-predict
+  random-route: true
+  memory: 128M
